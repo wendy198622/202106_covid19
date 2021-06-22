@@ -77,7 +77,7 @@ nav{
             border: 1px solid #494843;
             border-radius: 20px;
             padding: 6px 20px;
-            margin: 42px 10px;
+            margin: 38px 10px;
             @media (max-width: 800px) {
                 margin: 26px 0;
                 border: 0;
@@ -91,7 +91,10 @@ nav{
             }
             a{
                 color: #494843;
-                font-size: 18px;
+                font-size: 21px;
+                .yellow{
+                    display: inline;
+                }
                 .pc{ display: block;}
                 .mob{ display:none;}
                 @media (max-width: 800px) {
@@ -105,8 +108,16 @@ nav{
             }
             &.active{
                 background-color: #494843;
+                .yellow{
+                    display: inline;
+                    color: #fef3ab;
+                }
                 @media (max-width: 800px) {
                     background-color: #fff;
+                    .yellow{
+                        display: inline;
+                        color: #494843;
+                    }
                 }
                 a{
                     color: #ffffff;

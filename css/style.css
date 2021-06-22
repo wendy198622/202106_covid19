@@ -121,7 +121,7 @@ nav #tab li {
   border: 1px solid #494843;
   border-radius: 20px;
   padding: 6px 20px;
-  margin: 42px 10px;
+  margin: 38px 10px;
 }
 
 @media (max-width: 800px) {
@@ -145,7 +145,11 @@ nav #tab li {
 
 nav #tab li a {
   color: #494843;
-  font-size: 18px;
+  font-size: 21px;
+}
+
+nav #tab li a .yellow {
+  display: inline;
 }
 
 nav #tab li a .pc {
@@ -178,9 +182,18 @@ nav #tab li.active {
   background-color: #494843;
 }
 
+nav #tab li.active .yellow {
+  display: inline;
+  color: #fef3ab;
+}
+
 @media (max-width: 800px) {
   nav #tab li.active {
     background-color: #fff;
+  }
+  nav #tab li.active .yellow {
+    display: inline;
+    color: #494843;
   }
 }
 
