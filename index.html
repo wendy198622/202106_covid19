@@ -755,7 +755,7 @@
 					<div class="group">
 						<div class="item wow fadeInUp">
 							<label for="name">姓名*</label>
-							<input type="text" v-model="name" name="name" placeholder="請輸入您的姓名" required />
+							<input type="text" v-model="name" name="name" placeholder="請輸入您的姓名" required="required" />
 						</div>
 					</div>
 					<div class="group">
@@ -763,11 +763,11 @@
 							<label for="phone">手機號碼*</label>
 							<input type="text" v-model="phone" name="phone" placeholder="請輸入您的手機號碼" required />
 						</div>
-						<div class="item itemVerify wow fadeInUp" data-wow-delay=".3s">
+						<!-- <div class="item itemVerify wow fadeInUp" data-wow-delay=".3s">
 							<label for="verify">驗證碼*</label>
 							<input type="text" v-model="verify" name="verify" placeholder="請輸入您的驗證碼" required />
 						</div>
-						<button class="getcode">獲取簡訊驗證碼</button>
+						<button class="getcode">獲取簡訊驗證碼</button> -->
 					</div>
 					<div class="group">
 						<div class="item wow fadeInUp" data-wow-delay=".6s">
@@ -995,7 +995,7 @@
 					console.log("content:",content)
 					Email.send({
 						SecureToken: "e72b0d9a-0075-4eff-8b5e-74df58c177e4", //勿更動
-						To: 'gn01658704@gmail.com', //收件者填這
+						To: 'wendy198622@gmail.com', //收件者填這
 						From: "tt836427@gmail.com", //寄件者email，此為虛擬，勿更動
 						Subject: "我要預約看房", //信件主旨
 						Body: content

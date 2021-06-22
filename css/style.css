@@ -305,6 +305,7 @@ nav #tab li.active a {
   background-color: #fff;
   border: 1px solid #343434;
   position: absolute;
+  z-index: 5;
   left: 0;
   display: inline-block;
   top: 0;
@@ -425,7 +426,7 @@ nav #tab li.active a {
 
 .popup_form {
   position: fixed;
-  z-index: 30;
+  z-index: 20;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -512,35 +513,6 @@ nav #tab li.active a {
 @media (max-width: 800px) {
   .popup_form .formGroup .group {
     width: 100%;
-  }
-}
-
-.popup_form .formGroup .group .itemPhone {
-  width: 40%;
-  float: left;
-}
-
-@media (max-width: 800px) {
-  .popup_form .formGroup .group .itemPhone {
-    width: 100%;
-  }
-}
-
-.popup_form .formGroup .group .itemVerify, .popup_form .formGroup .group .getcode {
-  width: 28%;
-  float: left;
-  margin-left: 2%;
-}
-
-@media (max-width: 800px) {
-  .popup_form .formGroup .group .itemVerify, .popup_form .formGroup .group .getcode {
-    width: 49%;
-  }
-}
-
-@media (max-width: 800px) {
-  .popup_form .formGroup .group .itemVerify {
-    margin-left: 0;
   }
 }
 
@@ -648,7 +620,12 @@ nav #tab li.active a {
 
 .popup_form .formGroup .group .itemDesc .agree .checkbox {
   margin-right: 10px;
-  display: none;
+  width: 20px;
+  /* display: none; */
+  height: 20px;
+  float: left;
+  margin-top: 20px;
+  z-index: 10;
 }
 
 .popup_form .formGroup .group .itemDesc .agree .check-mark {
@@ -657,7 +634,7 @@ nav #tab li.active a {
   background-color: #fff;
   border: 1px solid #343434;
   position: absolute;
-  z-index: 0;
+  z-index: 5;
   left: 0;
   display: inline-block;
   top: 18px;
@@ -688,7 +665,6 @@ nav #tab li.active a {
 .popup_form .formGroup .group .itemDesc .agree label {
   font-size: 16px;
   float: left;
-  padding-left: 24px;
   font-weight: 400;
 }
 
@@ -728,6 +704,7 @@ nav #tab li.active a {
   line-height: 50px;
   text-align: center;
   position: fixed;
+  z-index: 35;
   top: 0;
   right: 0;
   bottom: 0;
@@ -735,7 +712,6 @@ nav #tab li.active a {
   margin: auto;
   background-color: #fff;
   padding: 0 10px;
-  z-index: 20;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   font-size: 14px;
