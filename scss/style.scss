@@ -43,7 +43,7 @@ i.material-icons{
     left: 20px;
     @media (max-width: 800px) {
         top: 100px;
-        width: calc(240/800*100%);
+        width: calc(220/800*100%);
     }
 }
 nav{ 
@@ -245,8 +245,18 @@ nav{
             }
         }
         .sale{
+            overflow: hidden;
             .saleItem{
+                width: calc((100% - 20px) / 2);
+                float: left;
+                margin-right: 20px;
                 margin-bottom: 20px;
+                &:nth-child(2n){ margin-right: 0;}
+                @media (max-width: 1200px) {
+                    width: 100%;
+                    margin-right: 0;
+
+                }
             }
         }
         .live{

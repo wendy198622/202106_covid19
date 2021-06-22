@@ -18,7 +18,7 @@
 	<!-- js -->
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<!-- <script type="text/javascript" src="https://mpiotrowicz.github.io/a11y-sandbox/javascripts/vendor/handlebars.js"></script> -->
-	<!-- <script type="text/javascript" src="js/wow.min.js"></script> -->
+	<script type="text/javascript" src="js/wow.min.js"></script>
 	<script type="text/javascript" src="js/slick.js"></script>
 	<script type="text/javascript" src="js/vue.js"></script>
 	<script type="text/javascript" src="js/imgLiquid-min.js"></script>
@@ -28,19 +28,19 @@
 <body>
 	<div id="app">
 		<div class="logo">
-			<a href="#"><img src="img/logo.svg" alt=""></a>
+			<a href="#" target="_blank"><img src="img/logo.svg" alt=""></a>
 		</div>
 		<nav>
 			<ul id="tab">
-				<li><a href="#">
+				<li><a href="#" target="_blank">
 					<span class="pc">線上安心賞屋 YOU&ME</span>
 					<span class="mob">線上安心賞屋<br>YOU&ME</span>
 				</a></li>
-				<li><a href="#">
+				<li><a href="#" target="_blank">
 					<span class="pc">防疫優惠回饋專案</span>
 					<span class="mob">防疫優惠<br>回饋專案</span>
 				</a></li>
-				<li><a href="#">
+				<li><a href="#" target="_blank">
 					<span class="pc">現場賞屋防疫措施</span>
 					<span class="mob">現場賞屋<br>防疫措施</span>
 					
@@ -60,7 +60,7 @@
 						台北地區
 					</div>
 					<div class="project">
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="吉美信義" class="checkbox"  v-model="selectedhouses">吉美信義
 								<span class="check-mark"></span>
@@ -73,7 +73,7 @@
 										<li>｜萬芳捷運站旁</li>
 										<li>｜下樓校園公園近在咫尺</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/35GWYZJ" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -89,7 +89,7 @@
 							新北地區
 					</div>
 					<div class="project">
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="宏盛海都" class="checkbox"  v-model="selectedhouses">宏盛海都
 								<span class="check-mark"></span>
@@ -101,7 +101,7 @@
 										<li>｜1400坪大基地</li>
 										<li>｜李天鐸建築</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/2SfuzH6" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -110,7 +110,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".3s">
 							<label>
 								<input type="checkbox" name="project" value="水澍之間" class="checkbox"  v-model="selectedhouses">水澍之間
 								<span class="check-mark"></span>
@@ -122,7 +122,7 @@
 										<li>｜夢想生活一次到位</li>
 										<li>｜不可錯過的好地段</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/394ypGN" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -131,7 +131,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".6s">
 							<label>
 								<input type="checkbox" name="project" value="益翔樂活綻" class="checkbox"  v-model="selectedhouses">益翔樂活綻
 								<span class="check-mark"></span>
@@ -143,7 +143,7 @@
 										<li>｜新春街萬坪綠地第一排</li>
 										<li>｜全聯超商做鄰居</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/2TX5Nw8" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -152,7 +152,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="上河匯" class="checkbox"  v-model="selectedhouses">上河匯
 								<span class="check-mark"></span>
@@ -164,7 +164,7 @@
 										<li>｜雙捷都會公園宅</li>
 										<li>｜128萬坪水岸綠意</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/35IVdeM" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -173,7 +173,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".3s">
 							<label>
 								<input type="checkbox" name="project" value="大吾疆御鑄" class="checkbox"  v-model="selectedhouses">大吾疆御鑄
 								<span class="check-mark"></span>
@@ -185,7 +185,7 @@
 										<li>｜林口崗石地標</li>
 										<li>｜精品建築實現藝術生活</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3vMNWVF" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -194,7 +194,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".6s">
 							<label>
 								<input type="checkbox" name="project" value="青松翫" class="checkbox"  v-model="selectedhouses">青松翫
 								<span class="check-mark"></span>
@@ -205,7 +205,7 @@
 									<ul class="features">
 										<li></li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="#" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -221,7 +221,7 @@
 							桃園地區
 					</div>
 					<div class="project">
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="富御捷境" class="checkbox"  v-model="selectedhouses">富御捷境
 								<span class="check-mark"></span>
@@ -233,7 +233,7 @@
 										<li>｜機場捷運A7體育大學站</li>
 										<li>｜公園校園預定地為鄰</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3qgqWx4" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -242,7 +242,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".3s">
 							<label>
 								<input type="checkbox" name="project" value="皇普MVP" class="checkbox"  v-model="selectedhouses">皇普MVP
 								<span class="check-mark"></span>
@@ -254,7 +254,7 @@
 										<li>｜十年防水保固</li>
 										<li>｜VAF空氣凈流健康宅</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/2QEiho3" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -263,7 +263,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".6s">
 							<label>
 								<input type="checkbox" name="project" value="大築文匯" class="checkbox"  v-model="selectedhouses">大築文匯
 								<span class="check-mark"></span>
@@ -275,7 +275,7 @@
 										<li>｜五核新城心</li>
 										<li>｜百米林蔭地標</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3vLFGW3" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -284,7 +284,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="竹城表參道" class="checkbox"  v-model="selectedhouses">竹城表參道
 								<span class="check-mark"></span>
@@ -297,7 +297,7 @@
 										<li>｜1858坪大基地開發</li>
 										<li>｜Ｇ12捷運站700米</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3qk29bM" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -306,7 +306,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".3s">
 							<label>
 								<input type="checkbox" name="project" value="市政潤隆" class="checkbox"  v-model="selectedhouses">市政潤隆
 								<span class="check-mark"></span>
@@ -317,7 +317,7 @@
 									<ul class="features">
 										<li>｜中路最強崗石泳池城堡</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3wM5in7" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -326,7 +326,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".6s">
 							<label>
 								<input type="checkbox" name="project" value="逸偉站前ONE" class="checkbox"  v-model="selectedhouses">逸偉站前ONE
 								<span class="check-mark"></span>
@@ -338,7 +338,7 @@
 										<li>｜雙捷運公園精品宅</li>
 										<li>｜三鐵共構置產必贏</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3qeDHZ4" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -347,7 +347,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="大睦敦品" class="checkbox"  v-model="selectedhouses">大睦敦品
 								<span class="check-mark"></span>
@@ -358,7 +358,7 @@
 									<ul class="features">
 										<li>｜日式手感建築</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3wM7cEb" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -367,7 +367,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".3s">
 							<label>
 								<input type="checkbox" name="project" value="大耀首耀" class="checkbox"  v-model="selectedhouses">大耀首耀
 								<span class="check-mark"></span>
@@ -381,7 +381,7 @@
 										<li>｜3分鐘機捷A15</li>
 										<li>｜高鐵站18分鐘</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3gIv6Ld" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -390,7 +390,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".6s">
 							<label>
 								<input type="checkbox" name="project" value="玖都莊園" class="checkbox"  v-model="selectedhouses">玖都莊園
 								<span class="check-mark"></span>
@@ -401,7 +401,7 @@
 									<ul class="features">
 										<li>｜健康防疫宅</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3wOjprN" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -410,7 +410,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="明日莊園" class="checkbox"  v-model="selectedhouses">明日莊園
 								<span class="check-mark"></span>
@@ -423,7 +423,7 @@
 										<li>｜獨棟專屬會館</li>
 										<li>｜客運園區首發之作</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/35IWnqE" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -432,7 +432,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".3s">
 							<label>
 								<input type="checkbox" name="project" value="大睦i-city" class="checkbox"  v-model="selectedhouses">大睦i-city
 								<span class="check-mark"></span>
@@ -444,7 +444,7 @@
 										<li>｜五案連銷綠建築</li>
 										<li>｜站前核心交通便利</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3gKaRg8" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -453,7 +453,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".6s">
 							<label>
 								<input type="checkbox" name="project" value="紅不讓" class="checkbox"  v-model="selectedhouses">紅不讓
 								<span class="check-mark"></span>
@@ -466,7 +466,7 @@
 										<li>｜柱中柱耐震</li>
 										<li>｜3年防水保固</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/2TQk39J" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -475,7 +475,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="青庭" class="checkbox"  v-model="selectedhouses">青庭
 								<span class="check-mark"></span>
@@ -488,7 +488,7 @@
 										<li>｜預約亞洲矽谷園區</li>
 										<li>｜國際會展中心遠景</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/35W4mRn" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -497,7 +497,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".3s">
 							<label>
 								<input type="checkbox" name="project" value="W站前" class="checkbox"  v-model="selectedhouses">W站前
 								<span class="check-mark"></span>
@@ -509,7 +509,7 @@
 										<li>｜高鐵站前核心角地</li>
 										<li>｜國際級飯店寓所</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/35Mj4de" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -518,7 +518,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".6s">
 							<label>
 								<input type="checkbox" name="project" value="振翔富裔" class="checkbox"  v-model="selectedhouses">振翔富裔
 								<span class="check-mark"></span>
@@ -530,7 +530,7 @@
 										<li>｜校園公園第一排</li>
 										<li>｜埔心站前絕版美地</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3vSy984" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -539,7 +539,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="誠聚家" class="checkbox"  v-model="selectedhouses">誠聚家
 								<span class="check-mark"></span>
@@ -552,7 +552,7 @@
 										<li>｜千坪尺度雙塔建築</li>
 										<li>｜草漯6級耐震宅</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3gNnAhW" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -568,7 +568,7 @@
 						新竹地區
 					</div>
 					<div class="project">
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="市政首璽" class="checkbox"  v-model="selectedhouses">市政首璽
 								<span class="check-mark"></span>
@@ -581,7 +581,7 @@
 										<li>｜9年國教明星學區</li>
 										<li>｜鄰百米綠帶藝文廣場</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3gLIpKY" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -590,7 +590,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".3s">
 							<label>
 								<input type="checkbox" name="project" value="明星公園" class="checkbox"  v-model="selectedhouses">明星公園
 								<span class="check-mark"></span>
@@ -603,7 +603,7 @@
 										<li>｜明新科大旁</li>
 										<li>｜2~3房雙公園地王</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3gNnB5u" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -618,7 +618,7 @@
 					<div class="title">
 						苗栗地區
 					</div>
-					<div class="project">
+					<div class="project wow fadeInUp">
 						<div class="projectItem">
 							<label>
 								<input type="checkbox" name="project" value="悅捷市" class="checkbox"  v-model="selectedhouses">悅捷市
@@ -631,7 +631,7 @@
 										<li>｜竹南東站文教特區</li>
 										<li>｜鐵路 商圈 學區 公園 一次購足</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/2TTPi3A" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -640,7 +640,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".3s">
 							<label>
 								<input type="checkbox" name="project" value="昕見築" class="checkbox"  v-model="selectedhouses">昕見築
 								<span class="check-mark"></span>
@@ -653,7 +653,7 @@
 										<li>｜藝文中心首排</li>
 										<li>｜上櫃公司亞昕國際開發</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3gR2hMR" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -669,7 +669,7 @@
 						台中地區
 					</div>
 					<div class="project">
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp">
 							<label>
 								<input type="checkbox" name="project" value="好好窩" class="checkbox"  v-model="selectedhouses">好好窩
 								<span class="check-mark"></span>
@@ -681,7 +681,7 @@
 										<li>｜泳池旅宿宅</li>
 										<li>｜海線最強成家首選</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3vLW6xy" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -690,7 +690,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".3s">
 							<label>
 								<input type="checkbox" name="project" value="明日享享" class="checkbox"  v-model="selectedhouses">明日享享
 								<span class="check-mark"></span>
@@ -703,7 +703,7 @@
 										<li>｜民族路大道第一排</li>
 										<li>｜一筆箍工法高優質住宅</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/35HyIqt" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -712,7 +712,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="projectItem">
+						<div class="projectItem wow fadeInUp" data-wow-delay=".6s">
 							<label>
 								<input type="checkbox" name="project" value="森茂松竹" class="checkbox" v-model="selectedhouses">森茂松竹
 								<span class="check-mark"></span>
@@ -723,7 +723,7 @@
 									<ul class="features">
 										<li>｜松竹站200米</li>
 									</ul>
-									<a href="#">建案詳情
+									<a href="https://bit.ly/3gNgv1b" target="_blank">建案詳情
 										<i class="material-icons">
 											chevron_right
 										</i>
@@ -747,41 +747,41 @@
 					</div>
 					<p><i class="material-icons">info</i>請留下您的預約資料 <span>*為必填</span></p>
 					<div class="group">
-						<div class="item wow fadeInUp" data-wow-delay=".9s">
+						<div class="item">
 							<label for="message">您選擇預約的建案</label>
 							<textarea id="message" v-model="message" name="message" placeholder="系統自動帶入選擇個案（可複選）" required></textarea>
 						</div>
 					</div>
 					<div class="group">
-						<div class="item wow fadeInUp">
+						<div class="item">
 							<label for="name">姓名*</label>
 							<input type="text" v-model="name" name="name" placeholder="請輸入您的姓名" required="required" />
 						</div>
 					</div>
 					<div class="group">
-						<div class="item itemPhone wow fadeInUp" data-wow-delay=".3s">
+						<div class="item itemPhone">
 							<label for="phone">手機號碼*</label>
 							<input type="text" v-model="phone" name="phone" placeholder="請輸入您的手機號碼" required />
 						</div>
-						<!-- <div class="item itemVerify wow fadeInUp" data-wow-delay=".3s">
+						<!-- <div class="item itemVerify">
 							<label for="verify">驗證碼*</label>
 							<input type="text" v-model="verify" name="verify" placeholder="請輸入您的驗證碼" required />
 						</div>
 						<button class="getcode">獲取簡訊驗證碼</button> -->
 					</div>
 					<div class="group">
-						<div class="item wow fadeInUp" data-wow-delay=".6s">
+						<div class="item">
 							<label for="email">電子信箱</label>
 							<input type="text" v-model="email" name="email" placeholder="請輸入您的電子信箱" />
 						</div>
 					</div>
 					<div class="group">
-						<div class="item itemDesc wow fadeInUp" data-wow-delay="1.2s">
+						<div class="item itemDesc">
 							<p>您所登錄的個人資料將作為以下用途<br>一.本網站所載之相關事項通知 二.客戶管理與服務 三.本公司行銷業務之推廣本案實際內容以現場公布為準</p>
 							<div class="agree">
 								<input type="checkbox" id="checkbox" class="checkbox" name="checkbox" value="checkbox" v-model="check">
 								<span class="check-mark"></span>
-								<label for="checkbox" class="checktxt">本人已知悉以上個人資料蒐集聲明事項 <a href="#">隱私權聲明</a></label>
+								<label for="checkbox" class="checktxt">本人已知悉以上個人資料蒐集聲明事項 <a href="#" target="_blank">隱私權聲明</a></label>
 								<button class="send" v-on:click="sendEmail()">送出表單</button>
 							</div>
 						</div>
@@ -805,11 +805,11 @@
 							新北地區
 						</div>
 						<div class="sale">
-							<div class="saleItem">
-								<a href="#"><img src="img/sale1-1.png" alt=""></a>
+							<div class="saleItem wow fadeInUp">
+								<a href="#" target="_blank"><img src="img/sale1-1.png" alt=""></a>
 							</div>
-							<div class="saleItem">
-								<a href="#"><img src="img/sale1-2.png" alt=""></a>
+							<div class="saleItem wow fadeInUp" data-wow-delay=".3s">
+								<a href="#" target="_blank"><img src="img/sale1-2.png" alt=""></a>
 							</div>
 						</div>
 					</div>
@@ -818,26 +818,26 @@
 							桃園地區
 						</div>
 						<div class="sale">
-							<div class="saleItem">
-								<a href="#"><img src="img/sale2-1.png" alt=""></a>
+							<div class="saleItem wow fadeInUp">
+								<a href="#" target="_blank"><img src="img/sale2-1.png" alt=""></a>
 							</div>
-							<div class="saleItem">
-								<a href="#"><img src="img/sale2-2.png" alt=""></a>
+							<div class="saleItem wow fadeInUp" data-wow-delay=".3s">
+								<a href="#" target="_blank"><img src="img/sale2-2.png" alt=""></a>
 							</div>
-							<div class="saleItem">
-								<a href="#"><img src="img/sale2-3.png" alt=""></a>
+							<div class="saleItem wow fadeInUp">
+								<a href="#" target="_blank"><img src="img/sale2-3.png" alt=""></a>
 							</div>
-							<div class="saleItem">
-								<a href="#"><img src="img/sale2-4.png" alt=""></a>
+							<div class="saleItem wow fadeInUp" data-wow-delay=".3s">
+								<a href="#" target="_blank"><img src="img/sale2-4.png" alt=""></a>
 							</div>
-							<div class="saleItem">
-								<a href="#"><img src="img/sale2-5.png" alt=""></a>
+							<div class="saleItem wow fadeInUp">
+								<a href="#" target="_blank"><img src="img/sale2-5.png" alt=""></a>
 							</div>
-							<div class="saleItem">
-								<a href="#"><img src="img/sale2-6.png" alt=""></a>
+							<div class="saleItem wow fadeInUp" data-wow-delay=".3s">
+								<a href="#" target="_blank"><img src="img/sale2-6.png" alt=""></a>
 							</div>
-							<div class="saleItem">
-								<a href="#"><img src="img/sale2-7.png" alt=""></a>
+							<div class="saleItem wow fadeInUp">
+								<a href="#" target="_blank"><img src="img/sale2-7.png" alt=""></a>
 							</div>
 						</div>
 					</div>
@@ -846,8 +846,8 @@
 							苗栗地區
 						</div>
 						<div class="sale">
-							<div class="saleItem">
-								<a href="#"><img src="img/sale3-1.png" alt=""></a>
+							<div class="saleItem wow fadeInUp">
+								<a href="#" target="_blank"><img src="img/sale3-1.png" alt=""></a>
 							</div>
 						</div>
 					</div>
@@ -856,8 +856,8 @@
 							台中地區
 						</div>
 						<div class="sale">
-							<div class="saleItem">
-								<a href="#"><img src="img/sale4-1.png" alt=""></a>
+							<div class="saleItem wow fadeInUp">
+								<a href="#" target="_blank"><img src="img/sale4-1.png" alt=""></a>
 							</div>
 						</div>
 					</div>
@@ -873,27 +873,27 @@
 					<div class="block"> 
 						<div class="live">
 							<div class="liveItem">
-								<div class="photo">
+								<div class="photo wow fadeInUp" data-wow-delay=".3s">
 									<div>
 										<img src="img/live1-1.png" alt="">
 									</div>
 									
 								</div>
-								<h5>防護全面升級 安心賞屋再進化</h5>
-								<p>1.銷售人員增加全臉防護面罩，並全程配戴手套｜2.銷售人員與貴賓皆增大會談安全距離，降低接觸風險｜3.全賞屋個案採預約制，分散人流尊榮服務</p>
+								<h5 class=" wow fadeInUp" data-wow-delay=".3s">防護全面升級 安心賞屋再進化</h5>
+								<p class=" wow fadeInUp">1.銷售人員增加全臉防護面罩，並全程配戴手套｜2.銷售人員與貴賓皆增大會談安全距離，降低接觸風險｜3.全賞屋個案採預約制，分散人流尊榮服務</p>
 							</div>
 							<div class="liveItem">
-								<div class="photo">
+								<div class="photo wow fadeInUp" data-wow-delay=".3s">
 									<div>
 										<img src="img/live2-1.png" alt="">
 									</div>
 									
 								</div>
-								<h5>新理想安心疫點零 每日均嚴格執行</h5>
-								<p>1.全程配戴口罩｜2.消毒雙手｜3.實名登記每位賓客｜4.接待中心及實品屋內均禁止飲食減少感染風險。</p>
+								<h5 class=" wow fadeInUp" data-wow-delay=".3s">新理想安心疫點零 每日均嚴格執行</h5>
+								<p class=" wow fadeInUp">1.全程配戴口罩｜2.消毒雙手｜3.實名登記每位賓客｜4.接待中心及實品屋內均禁止飲食減少感染風險。</p>
 							</div>
 							<div class="liveItem">
-								<div class="photo slider_photo">
+								<div class="photo slider_photo wow fadeInUp" data-wow-delay=".3s">
 									<div>
 										<img src="img/live3-1.png" alt="">
 									</div>
@@ -901,11 +901,11 @@
 										<img src="img/live3-2.png" alt="">
 									</div>
 								</div>
-								<h5></h5>
-								<p>每日依照物品使用頻率高至低，逐一清潔並使用酒精消毒。</p>
+								<h5 class=" wow fadeInUp" data-wow-delay=".3s"></h5>
+								<p class=" wow fadeInUp">每日依照物品使用頻率高至低，逐一清潔並使用酒精消毒。</p>
 							</div>
 							<div class="liveItem">
-								<div class="photo slider_photo">
+								<div class="photo slider_photo wow fadeInUp" data-wow-delay=".3s">
 									<div>
 										<img src="img/live4-1.png" alt="">
 									</div>
@@ -913,20 +913,20 @@
 										<img src="img/live4-2.png" alt="">
 									</div>
 								</div>
-								<h5></h5>
-								<p>賞屋人潮分流，一次僅接待一組賓客。</p>
+								<h5 class=" wow fadeInUp" data-wow-delay=".3s"></h5>
+								<p class=" wow fadeInUp">賞屋人潮分流，一次僅接待一組賓客。</p>
 							</div>
 							<div class="liveItem">
-								<div class="photo">
+								<div class="photo wow fadeInUp" data-wow-delay=".3s">
 									<div>
 										<img src="img/live5-1.png" alt="">
 									</div>
 								</div>
-								<h5></h5>
-								<p>廁所每日至少消毒兩次，並於每次使用後加強消毒。</p>
+								<h5 class=" wow fadeInUp" data-wow-delay=".3s"></h5>
+								<p class=" wow fadeInUp">廁所每日至少消毒兩次，並於每次使用後加強消毒。</p>
 							</div>
 							<div class="liveItem">
-								<div class="photo slider_photo">
+								<div class="photo slider_photo wow fadeInUp" data-wow-delay=".3s">
 									<div>
 										<img src="img/live6-1.png" alt="">
 									</div>
@@ -934,8 +934,8 @@
 										<img src="img/live6-2.png" alt="">
 									</div>
 								</div>
-								<h5></h5>
-								<p>除上述消毒工作外，接待中心結束營業後均以紫外線燈進行全室內殺菌消毒，<br>
+								<h5 class=" wow fadeInUp" data-wow-delay=".3s"></h5>
+								<p class=" wow fadeInUp">除上述消毒工作外，接待中心結束營業後均以紫外線燈進行全室內殺菌消毒，<br>
 										消毒完成後均放置告示牌，請賓客安心使用。<br>
 										提醒大家外出務必配戴口罩，每日監測身體狀況，並隨時消毒雙手與周邊環境，對抗疫情 新理想與你一起努力。</p>
 							</div>
@@ -946,7 +946,7 @@
 
 		<footer>
 			<p>
-				Copyright © 2021 新理想廣告股份有限公司 <a href="#">隱私權政策規範</a>
+				Copyright © 2021 新理想廣告股份有限公司 <a href="#" target="_blank">隱私權政策規範</a>
 			</p>
 			<div class="goTop"><img src="img/goTop.svg" alt=""></div>
 		</footer> 
@@ -954,18 +954,6 @@
 	</div>
 </body>
 <script>
-
-	// new WOW().init();
-	$(".imgLiquidFill").imgLiquid();
-
-	$('.slider_photo').slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows: false,
-		dots: true,
-		autoplay: true,
-		autoplaySpeed: 2000,
-	});
 
 	new Vue({
 			el: '#app',
@@ -995,7 +983,7 @@
 					console.log("content:",content)
 					Email.send({
 						SecureToken: "e72b0d9a-0075-4eff-8b5e-74df58c177e4", //勿更動
-						To: 'wendy198622@gmail.com', //收件者填這
+						To: 'g6momo@gmail.com','a0936706210@gmail.com', //收件者填這
 						From: "tt836427@gmail.com", //寄件者email，此為虛擬，勿更動
 						Subject: "我要預約看房", //信件主旨
 						Body: content
@@ -1028,6 +1016,19 @@
 		})
 </script>
 <script>
+
+	new WOW().init();
+	$(".imgLiquidFill").imgLiquid();
+
+	$('.slider_photo').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		dots: true,
+		autoplay: true,
+		autoplaySpeed: 2000,
+	});
+
 	$(function(){
 		$("ul#tab li:first").addClass("active");
 		$("div.tab_page").hide();

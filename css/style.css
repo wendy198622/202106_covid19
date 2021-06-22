@@ -75,7 +75,7 @@ a {
 @media (max-width: 800px) {
   .logo {
     top: 100px;
-    width: calc(240/800*100%);
+    width: calc(220/800*100%);
   }
 }
 
@@ -368,8 +368,26 @@ nav #tab li.active a {
   vertical-align: middle;
 }
 
+.houseContent .block .sale {
+  overflow: hidden;
+}
+
 .houseContent .block .sale .saleItem {
+  width: calc((100% - 20px) / 2);
+  float: left;
+  margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.houseContent .block .sale .saleItem:nth-child(2n) {
+  margin-right: 0;
+}
+
+@media (max-width: 1200px) {
+  .houseContent .block .sale .saleItem {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 .houseContent .block .live .liveItem {
