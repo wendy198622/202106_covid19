@@ -367,6 +367,15 @@ nav #tab li.active a {
   font-weight: normal;
 }
 
+.houseContent .block .project .projectItem label .detail .features li {
+  line-height: 1.3;
+}
+
+.houseContent .block .project .projectItem label .detail .features li:first-child {
+  color: #28486f;
+  font-weight: 700;
+}
+
 .houseContent .block .project .projectItem label .detail a {
   width: 92px;
   position: absolute;
